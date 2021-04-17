@@ -1,0 +1,42 @@
+body { 
+    background: #fafafa; 
+}
+#chat-context {
+    height: 95vh;
+}
+
+.chat-response.robot:after {
+    content: "";
+    background: url('../image/image.png') no-repeat center center;
+    background-size: contain;
+    opacity: .5;
+}
+
+.chat-response.user:after {
+    color: var(--color-green);
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+}
+
+.list-group .list-group-item {
+  
+    cursor: move;
+  }
+  
+  .list-group{
+  outline: 2px solid blue;
+    outline-offset: 5px;
+  min-height:5vh;
+  } 
+  
+  
+  .list-group .list-group-item:hover {
+    background-color: #f7f7f7;
+  }
+  
